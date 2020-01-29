@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/doing/main",
+    "pages/addactivity/main",
+    "pages/mine/main",
+    "pages/date/main",
+    "pages/clock/main",
+    "pages/index/main",
+    "pages/test1/main",
+    "pages/support/main",
+    "pages/successpost/main",
+    "pages/echarts/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "木竹打卡",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "borderStyle": "white",
+    "selectedColor": "#38ceb1",
+    "list": [
+      {
+        "pagePath": "pages/doing/main",
+        "text": "首页",
+        "iconPath": "./static/images/classic.png",
+        "selectedIconPath": "./static/images/clickclassic.png"
+      },
+      {
+        "pagePath": "pages/mine/main",
+        "text": "我的",
+        "iconPath": "./static/images/mine.png",
+        "selectedIconPath": "./static/images/clickmine.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-swipe-cell": "../static/vant/swipe-cell/index"
+  }
+}

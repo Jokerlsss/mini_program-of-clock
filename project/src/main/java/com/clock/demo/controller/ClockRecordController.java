@@ -7,11 +7,9 @@ import com.clock.demo.pojo.Activity;
 import com.clock.demo.pojo.ClockRecord;
 import com.clock.demo.service.ActicityService;
 import com.clock.demo.service.ClockRecordService;
-import org.apache.http.annotation.Obsolete;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.jnlp.ClipboardService;
 import java.util.List;
 
 /**

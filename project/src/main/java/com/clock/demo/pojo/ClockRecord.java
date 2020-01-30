@@ -12,7 +12,7 @@ import lombok.Data;
  * Time: 21:47
  * Description: 打卡记录
  */
-@TableName("clockRecord")
+@TableName("clockrecord")
 @Data
 public class ClockRecord {
     public ClockRecord(){}

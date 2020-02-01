@@ -26,7 +26,7 @@ public class ScheduledTasks {
      * 当过了凌晨时，活动状态更改为 ：未打卡
      */
     //秒-分-时
-    @Scheduled(cron = "0 2 19 * * ?")
+    @Scheduled(cron = "0 0 0 * * ?")
     public void BookOrderTask() {
         QueryWrapper<Activity> queryWrapper=new QueryWrapper<>();
         Date date=new Date();

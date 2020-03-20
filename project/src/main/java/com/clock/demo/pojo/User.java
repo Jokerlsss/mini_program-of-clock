@@ -18,7 +18,7 @@ import java.util.Collection;
  * Time: 22:52
  * Description: 用户表
  */
-@TableName("user")
+@TableName("users")
 @Data
 public class User implements UserDetails {
     public User(){}
